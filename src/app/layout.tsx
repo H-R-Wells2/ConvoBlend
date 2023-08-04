@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { cn } from "@/libs/utils";
+import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 import { Navbar } from "@/components";
+import { Toaster } from "@/components/ui/Toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <div className="container max-w-7xl mx-auto h-full pt-12">
           {children}
         </div>
+        <Toaster/>
       </body>
     </html>
   );
