@@ -30,7 +30,6 @@ const UserAuthForm = () => {
     }
   };
 
-
   return (
     <div className="flex flex-col justify-center items-center py-2">
       <button
