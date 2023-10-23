@@ -12,13 +12,14 @@ import {
 import blanckProfile from "../assets/blanckprofile.jpg";
 import demoads from "../assets/demoads.png";
 import Image from "next/image";
+import PostItem from "@/components/PostItem";
 
 export default function Home() {
   return (
     <div className="flex justify-center">
       {/* User Info Card */}
       <div className="sm:mr-7 my-2 w-1/4 hidden md:block">
-        <div className="bg-zinc-200 flex flex-col items-center text-black p-4 rounded-lg h-fit">
+        <div className="bg-zinc-200 flex flex-col items-center text-gray-800 p-4 rounded-lg h-fit">
           <div className="flex justify-between w-full pb-2">
             <div className="flex justify-center items-center gap-2">
               <Image
@@ -106,6 +107,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <PostItem />
 
         {/* Posts */}
         {/* <Postitem /> */}
