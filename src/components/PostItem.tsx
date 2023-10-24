@@ -38,7 +38,8 @@ const PostItem = (props: Props) => {
           <Image
             src={"/assets/images/food.jpg"}
             alt="food"
-            width={700} height={700}
+            width={700}
+            height={700}
             className="rounded-lg"
           />
         </div>
