@@ -16,9 +16,9 @@ import PostItem from "@/components/PostItem";
 
 export default function Home() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-between">
       {/* User Info Card */}
-      <div className="sm:mr-7 my-2 w-1/4 hidden md:block">
+      <div className=" my-2 w-1/4 hidden md:block">
         <div className="bg-zinc-200 flex flex-col items-center text-gray-800 p-4 rounded-lg h-fit">
           <div className="flex justify-between w-full pb-2">
             <div className="flex justify-center items-center gap-2">
@@ -67,7 +67,7 @@ export default function Home() {
       </div>
 
       {/* Main div */}
-      <div className="md:w-2/5 w-full mx-3 md:mx-0">
+      <div className="md:w-1/2 w-full mx-3 md:mx-4">
         {/* Create Post box */}
         <div className="bg-zinc-200 flex flex-col items-center text-gray-800 my-2 p-4 rounded-lg w-full h-fit">
           <div className="flex justify-start w-full pb-2">
@@ -113,7 +113,7 @@ export default function Home() {
         {/* <Postitem /> */}
       </div>
 
-      <div className="sm:ml-7 my-2 w-1/4 hidden md:block">
+      <div className=" my-2 w-1/4 hidden md:block">
         {/* Demo Ad */}
         <div className="bg-zinc-200 flex flex-col items-center text-gray-900 p-4 rounded-lg  h-fit">
           <div className="flex justify-between items-center w-full pb-2">
