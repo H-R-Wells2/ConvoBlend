@@ -9,8 +9,6 @@ import {
   FileAudio,
   UserMinus,
 } from "lucide-react";
-import blanckProfile from "../assets/blanckprofile.jpg";
-import demoads from "../assets/demoads.png";
 import Image from "next/image";
 import PostItem from "@/components/PostItem";
 

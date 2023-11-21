@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FcGoogle } from "react-icons/fc";
 import UserAuthForm from "./UserAuthForm";
 
 const SignIn = () => {

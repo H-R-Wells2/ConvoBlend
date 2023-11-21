@@ -1,9 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import signIn from "next-auth";
 import { useToast } from "@/hooks/use-toast";
-import { ToastAction } from "./ui/Toast";
 import { FcGoogle } from "react-icons/fc";
 
 const UserAuthForm = () => {
